@@ -1,0 +1,8 @@
+order_id,customer_id,order_date,amount,country,status
+1,101,2024-01-05,100,Portugal,completed
+2,102,2024-01-06,200,Spain,completed
+3,103,,150,Portugal,cancelled
+4,101,2024-01-07,,Portugal,completed
+5,104,2024-01-08,300,,completed
+6,105,2024-01-08,300,France,completed
+6,105,2024-01-08,300,France,completed
