@@ -1,0 +1,13 @@
+def segment_customer(row):
+    if row["total_spent"] > 800:
+        return "High Value"
+    elif row["orders_count"] > 5:
+        return "Loyal"
+    elif row["last_order_days_ago"] > 60:
+        return "Churn Risk"
+    else:
+        return "Regular"
+
+df["segment"] = df.apply(segment_customer, axis=1)
+
+df
